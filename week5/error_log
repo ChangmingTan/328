@@ -1,0 +1,36 @@
+[04-May-2020 20:10:14 UTC] PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home/ctangree/public_html/328/week5/index.php on line 7
+[04-May-2020 20:10:14 UTC] PHP Fatal error:  require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/ctangree/public_html/328/week5/index.php on line 7
+[04-May-2020 20:10:17 UTC] PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home/ctangree/public_html/328/week5/index.php on line 7
+[04-May-2020 20:10:17 UTC] PHP Fatal error:  require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/ctangree/public_html/328/week5/index.php on line 7
+[04-May-2020 20:12:02 UTC] Unable to open views/home.html
+[04-May-2020 20:12:02 UTC] [328/week5/index.php:17] Preview->render()
+[04-May-2020 20:12:02 UTC] [328/week5/index.php:21] Base->run()
+[04-May-2020 20:13:07 UTC] Unable to open views/info.html
+[04-May-2020 20:13:07 UTC] [328/week5/index.php:17] Preview->render()
+[04-May-2020 20:13:07 UTC] [328/week5/index.php:21] Base->run()
+[04-May-2020 20:13:23 UTC] Unable to open views/info.html
+[04-May-2020 20:13:23 UTC] [328/week5/index.php:17] Preview->render()
+[04-May-2020 20:13:23 UTC] [328/week5/index.php:21] Base->run()
+[04-May-2020 20:21:51 UTC] Unable to open views/info.html
+[04-May-2020 20:21:51 UTC] [328/week5/index.php:17] Preview->render()
+[04-May-2020 20:21:51 UTC] [328/week5/index.php:21] Base->run()
+[04-May-2020 20:32:06 UTC] HTTP 404 (GET /index.php)
+[04-May-2020 20:32:06 UTC] [328/week5/index.php:26] Base->run()
+[04-May-2020 20:36:18 UTC] Function name must be a string [/home/ctangree/public_html/328/week5/tmp/2hgpfgbrdla80.1i3rtm2wj9nhr.php:18]
+[04-May-2020 20:36:18 UTC] [328/week5/index.php:23] Preview->render()
+[04-May-2020 20:36:18 UTC] [328/week5/index.php:27] Base->run()
+[04-May-2020 20:56:57 UTC] Use of undefined constant bookmark - assumed 'bookmark' (this will throw an Error in a future version of PHP)
+[04-May-2020 20:56:57 UTC] [328/week5/tmp/2hgpfgbrdla80.1i3rtm2wj9nhr.php:31] Base->{closure}()
+[04-May-2020 20:56:57 UTC] [328/week5/index.php:32] Preview->render()
+[04-May-2020 20:56:57 UTC] [328/week5/index.php:36] Base->run()
+[04-May-2020 21:11:04 UTC] syntax error, unexpected ',' [/home/ctangree/public_html/328/week5/tmp/2hgpfgbrdla80.1i3rtm2wj9nhr.php:22]
+[04-May-2020 21:11:04 UTC] [328/week5/index.php:32] Preview->render()
+[04-May-2020 21:11:04 UTC] [328/week5/index.php:36] Base->run()
+[04-May-2020 21:11:34 UTC] Use of undefined constant radius - assumed 'radius' (this will throw an Error in a future version of PHP)
+[04-May-2020 21:11:34 UTC] [328/week5/tmp/2hgpfgbrdla80.1i3rtm2wj9nhr.php:22] Base->{closure}()
+[04-May-2020 21:11:34 UTC] [328/week5/index.php:32] Preview->render()
+[04-May-2020 21:11:34 UTC] [328/week5/index.php:36] Base->run()
+[04-May-2020 21:11:44 UTC] A non-numeric value encountered
+[04-May-2020 21:11:44 UTC] [328/week5/tmp/2hgpfgbrdla80.1i3rtm2wj9nhr.php:22] Base->{closure}()
+[04-May-2020 21:11:44 UTC] [328/week5/index.php:32] Preview->render()
+[04-May-2020 21:11:44 UTC] [328/week5/index.php:36] Base->run()
