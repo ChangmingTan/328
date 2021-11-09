@@ -1,0 +1,40 @@
+[03-Jun-2020 11:50:43 UTC] HTTP 404 (GET /index.php)
+[03-Jun-2020 11:50:43 UTC] [328/food3b/index.php:100] Base->run()
+[03-Jun-2020 22:52:33 UTC] Class 'Validate' not found [/home/ctangree/public_html/328/food3b/index.php:16]
+[04-Jun-2020 00:09:36 UTC] Class 'Validate' not found [/home/ctangree/public_html/328/food3b/index.php:16]
+[04-Jun-2020 00:09:39 UTC] Class 'Validate' not found [/home/ctangree/public_html/328/food3b/index.php:16]
+[04-Jun-2020 03:22:52 UTC] Class 'Validate' not found [/home/ctangree/public_html/328/food3b/index.php:16]
+[04-Jun-2020 11:19:35 UTC] Class 'Validate' not found [/home/ctangree/public_html/328/food3b/index.php:16]
+[05-Jun-2020 10:25:56 UTC] Class 'Validate' not found [/home/ctangree/public_html/328/food3b/index.php:16]
+[05-Jun-2020 10:26:30 UTC] Class 'Validate' not found [/home/ctangree/public_html/328/food3b/index.php:16]
+[05-Jun-2020 10:27:14 UTC] Class 'Validate' not found [/home/ctangree/public_html/328/food3b/index.php:16]
+[07-Jun-2020 11:09:05 UTC] HTTP 404 (GET /index.php)
+[07-Jun-2020 11:09:05 UTC] [328/food3b/index.php:40] Base->run()
+[07-Jun-2020 11:54:35 UTC] Class 'Database' not found [/home/ctangree/public_html/328/food3b/index.php:18]
+[07-Jun-2020 11:54:37 UTC] Class 'Database' not found [/home/ctangree/public_html/328/food3b/index.php:18]
+[13-Jun-2020 12:42:54 UTC] Cannot access property started with '\0' [/home/ctangree/public_html/328/food3b/vendor/bcosca/fatfree-core/base.php:885]
+[13-Jun-2020 12:42:54 UTC] [328/food3b/controllers/controller.php:30] Preview->render()
+[13-Jun-2020 12:42:54 UTC] [328/food3b/index.php:22] Controller->home()
+[13-Jun-2020 12:42:54 UTC] [328/food3b/index.php:46] Base->run()
+[13-Jun-2020 12:43:00 UTC] Cannot access property started with '\0' [/home/ctangree/public_html/328/food3b/vendor/bcosca/fatfree-core/base.php:885]
+[13-Jun-2020 12:43:00 UTC] [328/food3b/controllers/controller.php:30] Preview->render()
+[13-Jun-2020 12:43:00 UTC] [328/food3b/index.php:22] Controller->home()
+[13-Jun-2020 12:43:00 UTC] [328/food3b/index.php:46] Base->run()
+[13-Jun-2020 12:43:21 UTC] Cannot access property started with '\0' [/home/ctangree/public_html/328/food3b/vendor/bcosca/fatfree-core/base.php:885]
+[13-Jun-2020 12:43:21 UTC] [328/food3b/controllers/controller.php:30] Preview->render()
+[13-Jun-2020 12:43:21 UTC] [328/food3b/index.php:22] Controller->home()
+[13-Jun-2020 12:43:21 UTC] [328/food3b/index.php:46] Base->run()
+[13-Jun-2020 12:43:33 UTC] Cannot access property started with '\0' [/home/ctangree/public_html/328/food3b/vendor/bcosca/fatfree-core/base.php:885]
+[13-Jun-2020 12:43:33 UTC] [328/food3b/controllers/controller.php:30] Preview->render()
+[13-Jun-2020 12:43:33 UTC] [328/food3b/index.php:22] Controller->home()
+[13-Jun-2020 12:43:33 UTC] [328/food3b/index.php:46] Base->run()
+[13-Jun-2020 12:44:46 UTC] Cannot access property started with '\0' [/home/ctangree/public_html/328/food3b/vendor/bcosca/fatfree-core/base.php:885]
+[13-Jun-2020 12:44:46 UTC] [328/food3b/controllers/controller.php:30] Preview->render()
+[13-Jun-2020 12:44:46 UTC] [328/food3b/index.php:22] Controller->home()
+[13-Jun-2020 12:44:46 UTC] [328/food3b/index.php:46] Base->run()
+[13-Jun-2020 12:46:08 UTC] Cannot access property started with '\0' [/home/ctangree/public_html/328/food3b/vendor/bcosca/fatfree-core/base.php:885]
+[13-Jun-2020 12:46:08 UTC] [328/food3b/controllers/controller.php:30] Preview->render()
+[13-Jun-2020 12:46:08 UTC] [328/food3b/index.php:25] Controller->home()
+[13-Jun-2020 12:46:08 UTC] [328/food3b/index.php:49] Base->run()
+[16-Jun-2020 05:29:40 UTC] HTTP 404 (GET /views/display)
+[16-Jun-2020 05:29:40 UTC] [328/food3b/index.php:49] Base->run()

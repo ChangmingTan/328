@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Food Order</title>
+    <include href="includes/header.htm"></include>
+</head>
+<body>
+<div class="container">
+    <h1>Display all Orders</h1>
+
+    <table class="table">
+        <thead>
+        <tr>
+            <td>OrderID</td>
+            <td>Food</td>
+            <td>Meal</td>
+            <td>Date/Time</td>
+            <td>Condiments</td>
+        </tr>
+        </thead>
+        <tbody>
+        <repeat group="{{ @orders }}" value="{{ @order }}">
+            <tr>
+                <td>{{ @order['order_id']}}</td>
+                <td>{{ @order['food'] }}</td>
+                <td>{{ @order['meal'] }}</td>
+                <td>{{ date("M d, Y h:i a", strtotime(@order['date_time'])) }}</td>
+                <td>
+                    <check if="{{ !empty(@order['condiments']) }}">
+                        <true>{{ @order['condiments']}}</true>
+                        <false>None</false>
+                    </check>
+                </td>
+            </tr>
+        </repeat>
+        </tbody>
+    </table>
+
+</div>
+</body>
+</html>

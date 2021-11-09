@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Welcome to My Food Page</title>
+    <include href="includes/header.htm"></include>
+</head>
+<body>
+    <div class="container">
+        <h1>Order Summary</h1>
+        <p>Thank you for ordering {{ @SESSION.order->getFood() }} for {{ @SESSION.order->getMeal() }}</p>
+        <check if="{{ !empty(@SESSION.order->getCondiments()) }}">
+            <p>Condiments:  {{ implode(@SESSION.order->getCondiments(), ", ") }}</p>
+        </check>
+
+        <a href="order">Place another order</a><br>
+        <a href="{{ @BASE }}">Home page</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Food Order</title>
+    <include href="includes/header.htm"></include>
+</head>
+<body>
+    <div class="container">
+        <h1>Food Order, Continued</h1>
+
+        <form action="#" method="post" class="form-horizontal">
+
+            <!-- get condiments -->
+            <div class="form-group">
+                <label class="col-sm-2 control-label">Select condiments</label>
+                <div class="col-sm-4">
+                    <repeat group="{{ @conds }}" value="{{ @cond }}">
+                        <label><input type="checkbox"
+                                      name="conds[]"
+                                      value="{{ @cond }}"> {{ ucfirst(@cond) }}</label><br>
+                    </repeat>
+                </div>
+            </div>
+
+            <div class="col-xs-3 ">
+                <input class="form-control btn btn-default"
+                       type="submit" value="Place Order">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
