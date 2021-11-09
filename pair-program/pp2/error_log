@@ -1,0 +1,38 @@
+[17-Apr-2020 21:30:29 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function printArr(), 0 passed in /home/ctangree/public_html/328/pair-program/pp2/index.php on line 34 and exactly 1 expected in /home/ctangree/public_html/328/pair-program/pp2/index.php:28
+Stack trace:
+#0 /home/ctangree/public_html/328/pair-program/pp2/index.php(34): printArr()
+#1 {main}
+  thrown in /home/ctangree/public_html/328/pair-program/pp2/index.php on line 28
+[18-Apr-2020 06:36:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ctangree/public_html/328/pair-program/pp2/functions.php on line 5
+[18-Apr-2020 06:36:48 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ctangree/public_html/328/pair-program/pp2/functions.php on line 13
+[18-Apr-2020 06:37:16 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function largest(), 0 passed in /home/ctangree/public_html/328/pair-program/pp2/functions.php on line 21 and exactly 1 expected in /home/ctangree/public_html/328/pair-program/pp2/functions.php:12
+Stack trace:
+#0 /home/ctangree/public_html/328/pair-program/pp2/functions.php(21): largest()
+#1 /home/ctangree/public_html/328/pair-program/pp2/index.php(34): include('/home/ctangree/...')
+#2 {main}
+  thrown in /home/ctangree/public_html/328/pair-program/pp2/functions.php on line 12
+[18-Apr-2020 11:36:31 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function largest(), 1 passed in /home/ctangree/public_html/328/pair-program/pp2/functions.php on line 28 and exactly 2 expected in /home/ctangree/public_html/328/pair-program/pp2/functions.php:12
+Stack trace:
+#0 /home/ctangree/public_html/328/pair-program/pp2/functions.php(28): largest(Array)
+#1 /home/ctangree/public_html/328/pair-program/pp2/index.php(34): include('/home/ctangree/...')
+#2 {main}
+  thrown in /home/ctangree/public_html/328/pair-program/pp2/functions.php on line 12
+[18-Apr-2020 12:41:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printArr() in /home/ctangree/public_html/328/pair-program/pp2/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/ctangree/public_html/328/pair-program/pp2/index.php on line 34
+[18-Apr-2020 12:41:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printArr() in /home/ctangree/public_html/328/pair-program/pp2/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/ctangree/public_html/328/pair-program/pp2/index.php on line 34
+[18-Apr-2020 12:42:03 UTC] PHP Notice:  Array to string conversion in /home/ctangree/public_html/328/pair-program/pp2/index.php on line 34
+[18-Apr-2020 12:43:11 UTC] PHP Notice:  Array to string conversion in /home/ctangree/public_html/328/pair-program/pp2/index.php on line 34
+[19-Apr-2020 04:32:14 UTC] PHP Notice:  Array to string conversion in /home/ctangree/public_html/328/pair-program/pp2/functions.php on line 42
+[19-Apr-2020 04:32:48 UTC] PHP Notice:  Array to string conversion in /home/ctangree/public_html/328/pair-program/pp2/functions.php on line 43
+[19-Apr-2020 04:33:00 UTC] PHP Notice:  Array to string conversion in /home/ctangree/public_html/328/pair-program/pp2/functions.php on line 43
+[19-Apr-2020 04:54:16 UTC] PHP Warning:  array_count_values(): Can only count STRING and INTEGER values! in /home/ctangree/public_html/328/pair-program/pp2/functions.php on line 62
+[19-Apr-2020 04:55:58 UTC] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/ctangree/public_html/328/pair-program/pp2/functions.php on line 62
+[19-Apr-2020 04:56:26 UTC] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/ctangree/public_html/328/pair-program/pp2/functions.php on line 63
+[19-Apr-2020 04:58:11 UTC] PHP Warning:  array_count_values(): Can only count STRING and INTEGER values! in /home/ctangree/public_html/328/pair-program/pp2/functions.php on line 63
+[19-Apr-2020 04:59:11 UTC] PHP Notice:  Array to string conversion in /home/ctangree/public_html/328/pair-program/pp2/functions.php on line 64
+[19-Apr-2020 04:59:50 UTC] PHP Notice:  Array to string conversion in /home/ctangree/public_html/328/pair-program/pp2/functions.php on line 64
