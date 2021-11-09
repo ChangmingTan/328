@@ -1,0 +1,69 @@
+<include href="includes/header.html"></include>
+<div class="card container">
+    <div class="card-body">
+        <h1>Interests</h1>
+        <hr>
+        <form id="interests" action="#" method="post" class="row">
+            <div class="container">
+                <label class="font-weight-bold">In-door Interests</label><br>
+
+                <check if="{{ isset(@errors['indoor']) }}">
+                    <div class="alert alert-danger alert-dismissible fade show mt-1">
+                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                        {{ @errors['indoor'] }}
+                    </div>
+                </check>
+
+                <div class="row">
+                    <repeat group="{{ @indoors }}" value="{{ @indoor }}">
+                        <div class="col-6 col-sm-3">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="{{ @indoor }}"
+                                       name="indoor[]" value="{{ @indoor }}"
+                                <check if="{{ @indoor == @selectedIndoor }}">
+                                    checked="checked"
+                                </check>
+                                >
+                                <label class="custom-control-label" for="{{ @indoor }}">{{ @indoor }}</label>
+                            </div>
+                        </div>
+                    </repeat>
+                </div>
+
+            </div>
+
+            <div class="container">
+                <label class="font-weight-bold mt-4">Out-door Interests</label><br>
+
+                <check if="{{ isset(@errors['outdoor']) }}">
+                    <div class="alert alert-danger alert-dismissible fade show mt-1">
+                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                        {{ @errors['outdoor'] }}
+                    </div>
+                </check>
+
+                <div class="row">
+                    <repeat group="{{ @outdoors }}" value="{{ @outdoor }}">
+                        <div class="col-6 col-sm-3">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="{{ @outdoor }}"
+                                       name="outdoor[]" value="{{ @outdoor }}"
+                                <check if="{{ @outdoor == @selectedOutdoor }}">
+                                    checked="checked"
+                                </check>
+                                >
+                                <label class="custom-control-label" for="{{ @outdoor }}">{{ @outdoor }}</label>
+                            </div>
+                        </div>
+                    </repeat>
+
+                </div>
+            </div>
+        </form>
+
+        <div class="float-right p-2">
+            <button type="submit" form="interests" class="btn btn-primary">Next ></button>
+        </div>
+
+    </div>
+</div>

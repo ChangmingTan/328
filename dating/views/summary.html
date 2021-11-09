@@ -1,0 +1,62 @@
+<include href="includes/header.html"></include>
+<div class="card container">
+    <div class="card-body">
+        <div id="summary" class="row">
+            <div class="col-lg-6">
+
+                <div class="card">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Name: {{ @SESSION.pInfo->getFname() }} {{ @SESSION.pInfo->getLname()
+                            }}
+                        </li>
+
+                        <check if="{{ !empty(@SESSION.pInfo->getGender()) }}">
+                            <li class="list-group-item">Gender: {{ @SESSION.pInfo->getGender() }}</li>
+                        </check>
+
+                        <li class="list-group-item">Age: {{ @SESSION.pInfo->getAge() }}</li>
+                        <li class="list-group-item">Phone: {{ @SESSION.pInfo->getPhone() }}</li>
+                        <li class="list-group-item">Email: {{ @SESSION.pInfo->getEmail() }}</li>
+                        <li class="list-group-item">State: {{ @SESSION.pInfo->getState() }}</li>
+
+                        <check if="{{ !empty(@SESSION.pInfo->getSeeking()) }}">
+                            <li class="list-group-item">Seeking: {{ @SESSION.pInfo->getSeeking() }}</li>
+                        </check>
+
+                        <check if="{{ @SESSION.pInfo instanceof PremiumMember && (!empty(@SESSION.pInfo->getInDoorInterests()) || !empty(@SESSION.pInfo->getOutDoorInterests())) }}">
+                            <li class="list-group-item">Interests:
+                                <check if="{{ !empty(@SESSION.pInfo->getInDoorInterests()) }}">{{
+                                    implode(@SESSION.pInfo->getInDoorInterests(), ", ") }}
+                                    <check if="{{ !empty(@SESSION.pInfo->getOutDoorInterests()) }}">,</check>
+                                </check>
+                                <check if="{{ !empty(@SESSION.pInfo->getOutDoorInterests()) }}">{{
+                                    implode(@SESSION.pInfo->getOutDoorInterests(), ", ") }}
+                                </check>
+                            </li>
+                        </check>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-6 text-center">
+                <img src="https://pluspng.com/img-png/user-png-icon-male-user-icon-512.png" alt="user" width="350"
+                     height="350">
+
+                <check if="{{ !empty(@SESSION.pInfo->getBio()) }}">
+                    <div class="text-left p-3">
+                        <h3>Biography</h3>
+                        <p>{{ @SESSION.pInfo->getBio() }}</p>
+                    </div>
+                </check>
+
+            </div>
+
+        </div>
+
+        <div class="text-center p-2">
+            <a class="btn btn-primary text-white" href="">Contact Me!</a>
+        </div>
+
+    </div>
+</div>

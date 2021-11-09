@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>json-search</title>
+</head>
+<body>
+<div class="container mt-5 mb-5">
+    <h1 class="text-center pb-3">Chapter 4-5 JavaScript</h1>
+    <ol>
+        <li>Create a json - search.html file that links to json - search.js. In your JS file , create a json variable
+            that contains data for at least five people. Data fields should include, at a minimum: name, sex, born,
+            died, father, and mother.
+        </li>
+        <li>Include entries for Jane Doe and Jane Ramirez.</li>
+        <li>Your html page should contain a header, a text input and a Search button. When the button is clicked, search
+            the JSON for a match. If a match is found, display the person’s information. If no match was found , display
+            a message.
+        </li>
+        <li>Your search should be case - insensitive, so “jane doe” and “Jane Doe” are equivalent searches. You should
+            also account for partial searches, so “Jane” should display both “Jane Doe” and “Jane Ramirez.”
+        </li>
+        <li>Challenge: Modify your JSON so that name, father and mother consist of “first” and “last” fields.</li>
+    </ol>
+</div>
+<div class="container mt-5 mb-5">
+    <div class="row">
+        <div class="col-12 mx-auto">
+            <div class="input-group pb-2">
+                <input class="form-control border-secondary py-2" type="text" placeholder="search..." name="input"
+                       id="input">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="btn"><i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container d-block" id="display"></div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+<script src="json-search.js"></script>
+</body>
+</html>

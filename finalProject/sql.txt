@@ -1,0 +1,44 @@
+CREATE TABLE PersonalInfo (
+    PersonID int NOT NULL AUTO_INCREMENT,
+    LastName varchar(20),
+    FirstName varchar(20),
+    Phone varchar(15),
+    Email varchar(30),
+    PRIMARY KEY (PersonID)
+);
+
+CREATE TABLE BMWMake (
+    MakeID int NOT NULL AUTO_INCREMENT,
+    Model varchar(20),
+    Year varchar(20),
+    DriveTrain varchar(100),
+    FOREIGN KEY (MakeID) REFERENCES PersonalInfo(PersonID)
+);
+
+CREATE TABLE BMWExterior (
+    ExteriorID int NOT NULL AUTO_INCREMENT,
+    Rim_size varchar(20),
+    Spinner varchar(20),
+    Color varchar(20),
+    Exhaust varchar(100),
+    Engine varchar(100),
+    Transmission varchar(20),
+    Addition varchar(20),
+    FOREIGN KEY (ExteriorID) REFERENCES PersonalInfo(PersonID)
+);
+
+CREATE TABLE BMWInterior (
+    InteriorID int NOT NULL AUTO_INCREMENT,
+    Leather varchar(100),
+    Stereo varchar(20),
+    Navigation varchar(40),
+    Display varchar(40),
+    FOREIGN KEY (InteriorID) REFERENCES PersonalInfo(PersonID)
+);
+
+CREATE TABLE BMWSUV (
+    SUVID int NOT NULL AUTO_INCREMENT,
+    Wheels varchar(60),
+    Seats varchar(40),
+    FOREIGN KEY (SUVID) REFERENCES PersonalInfo(PersonID)
+);

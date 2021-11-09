@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Make/Model of BMW</title>
+    <include href="includes/header.html"></include>
+</head>
+<body>
+<div class="card container mb-5">
+    <div class="card-body">
+
+        <h1>Pick your BMW</h1>
+        <hr>
+        <form action="#" method="post" class="row" id="car">
+            <div class="col-lg-8">
+
+                <div class="form-group">
+                    <label for="makeDrop"><strong>Please select the model of your dream BMW </strong><b
+                            class="err">*</b></label>
+                    <select class="form-control" id="makeDrop" name="makeDrop">
+                        <option value="-- Please choose one --">-- Please choose one --</option>
+
+                        <repeat group="{{ @models }}" value="{{ @model }}">
+                            <option value="{{ @model }}"
+                            <check if="{{ @model == @selectedModel }}">selected="selected"</check>
+                            >{{ @model }}</option>
+                        </repeat>
+
+                    </select>
+
+                    <check if="{{ isset(@errors['makeDrop']) }}">
+                        <div class="alert alert-danger alert-dismissible fade show mt-1">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            {{ @errors['makeDrop'] }}
+                        </div>
+                    </check>
+
+                </div>
+
+                <div class="form-group">
+                    <label for="yearDrop"><strong>Please select a year </strong><b class="err">*</b></label>
+                    <select class="form-control" id="yearDrop" name="yearDrop">
+                        <option value="-- Please choose one --">-- Please choose one --</option>
+
+                        <repeat group="{{ @years }}" value="{{ @year }}">
+                            <option value="{{ @year }}"
+                            <check if="{{ @year == @selectedYear }}">selected="selected"</check>
+                            >{{ @year }}</option>
+                        </repeat>
+
+                    </select>
+
+                    <check if="{{ isset(@errors['yearDrop']) }}">
+                        <div class="alert alert-danger alert-dismissible fade show mt-1">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            {{ @errors['yearDrop'] }}
+                        </div>
+                    </check>
+
+                </div>
+
+                <div class="form-group">
+                    <label><strong>Drive-train </strong><b class="err">*</b></label>
+
+                    <repeat group="{{ @driveTrains }}" value="{{ @driveTrain }}">
+                        <br>
+                        <input type="radio" id="{{ @driveTrain }}" name="driveTrain" value="{{ @driveTrain }}"
+                        <check if="{{ @driveTrain == @selectedDriveTrain }}">checked="checked"</check>
+                        >
+                        <label for="{{ @driveTrain }}">{{ @driveTrain }}</label>
+                    </repeat>
+                    <br>
+
+                    <check if="{{ isset(@errors['driveTrain']) }}">
+                        <div class="alert alert-danger alert-dismissible fade show mt-1">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            {{ @errors['driveTrain'] }}
+                        </div>
+                    </check>
+
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card mt-4">
+                    <div class="card-body">
+                        <p class="card-text"><b>Note:</b> All information entered is protected by our <a
+                                href="https://en.wikipedia.org/wiki/Privacy_policy" target="_blank">privacy
+                            policy</a>.
+                            Profile information can only be viewed by others with your permission.</p>
+                        <p class="card-text"><b>Required:</b> Anything with a <b class="err">*</b> is required and needs
+                            to be filled out.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <div class="float-right p-2">
+            <button type="submit" form="car" class="btn btn-dark">Next ></button>
+        </div>
+
+
+    </div>
+</div>
+</body>
+</html>

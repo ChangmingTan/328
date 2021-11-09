@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interior of BMW</title>
+    <include href="includes/header.html"></include>
+</head>
+<body>
+<div class="card container mb-5">
+    <div class="card-body">
+
+        <h1>Design the interior of your BMW</h1>
+        <hr>
+        <form action="#" method="post" class="row" id="interior">
+
+            <div class="col-lg-8">
+
+                <div class="form-group">
+                    <label for="leather"><strong>Select the type of leather desired </strong><b
+                            class="err">*</b></label>
+                    <select class="form-control" id="leather" name="leather">
+                        <option value="-- Please choose one --">-- Please choose one --</option>
+
+                        <repeat group="{{ @leathers }}" value="{{ @leather }}">
+                            <option value="{{ @leather }}"
+                            <check if="{{ @leather == @selectedLeather }}">selected="selected"</check>
+                            >{{ @leather }}</option>
+                        </repeat>
+
+                    </select>
+
+                    <check if="{{ isset(@errors['leather']) }}">
+                        <div class="alert alert-danger alert-dismissible fade show mt-1">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            {{ @errors['leather'] }}
+                        </div>
+                    </check>
+
+                </div>
+
+                <div class="form-group">
+                    <label><strong>Stereo System </strong><b class="err">*</b></label>
+
+                    <repeat group="{{ @stereos }}" value="{{ @stereo }}">
+                        <br>
+                        <input type="radio" id="{{ @stereo }}" name="stereo" value="{{ @stereo }}"
+                        <check if="{{ @stereo == @selectedStereo }}">checked="checked"</check>
+                        >
+                        <label for="{{ @stereo }}">{{ @stereo }}</label>
+                    </repeat>
+                    <br>
+
+                    <check if="{{ isset(@errors['stereo']) }}">
+                        <div class="alert alert-danger alert-dismissible fade show mt-1">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            {{ @errors['stereo'] }}
+                        </div>
+                    </check>
+
+                </div>
+
+                <div class="form-group">
+                    <label><strong>Add navigation system </strong><b class="err">*</b></label>
+
+                    <repeat group="{{ @navigations }}" value="{{ @navigation }}">
+                        <br>
+                        <input type="radio" id="{{ @navigation }}" name="nav" value="{{ @navigation }}"
+                        <check if="{{ @navigation == @selectedNavigation }}">checked="checked"</check>
+                        >
+                        <label for="{{ @navigation }}">{{ @navigation }}</label>
+                    </repeat>
+                    <br>
+
+                    <check if="{{ isset(@errors['nav']) }}">
+                        <div class="alert alert-danger alert-dismissible fade show mt-1">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            {{ @errors['nav'] }}
+                        </div>
+                    </check>
+
+                </div>
+
+                <div class="form-group">
+                    <label><strong>Heads up display </strong><b class="err">*</b></label>
+
+                    <repeat group="{{ @headsUps }}" value="{{ @headsUp }}">
+                        <br>
+                        <input type="radio" id="{{ @headsUp }}" name="head" value="{{ @headsUp }}"
+                        <check if="{{ @headsUp == @selectedHeadsUp }}">checked="checked"</check>
+                        >
+                        <label for="{{ @headsUp }}">{{ @headsUp }}</label>
+                    </repeat>
+                    <br>
+                    <check if="{{ isset(@errors['head']) }}">
+                        <div class="alert alert-danger alert-dismissible fade show mt-1">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            {{ @errors['head'] }}
+                        </div>
+                    </check>
+
+                </div>
+
+
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card mt-4">
+                    <div class="card-body">
+                        <p class="card-text"><b>Note:</b> All information entered is protected by our <a
+                                href="https://en.wikipedia.org/wiki/Privacy_policy" target="_blank">privacy policy</a>.
+                            Profile information can only be viewed by others with your permission.</p>
+                        <p class="card-text"><b>Required:</b> Anything with a <b class="err">*</b> is required and needs
+                            to be filled out.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+
+        <div class="float-right p-2">
+            <button type="submit" form="interior" class="btn btn-dark">Next ></button>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

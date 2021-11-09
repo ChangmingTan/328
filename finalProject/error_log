@@ -1,0 +1,93 @@
+[16-Jun-2020 05:11:49 UTC] PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home/ctangree/public_html/328/finalProject/index.php on line 8
+[16-Jun-2020 05:11:49 UTC] PHP Fatal error:  require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/ctangree/public_html/328/finalProject/index.php on line 8
+[16-Jun-2020 05:33:33 UTC] Unable to open includes/header.htm
+[16-Jun-2020 05:33:33 UTC] [328/finalProject/tmp/248fzu2xrz34c.ggfjzr331ngn.php:5] Preview->render()
+[16-Jun-2020 05:33:33 UTC] [328/finalProject/controllers/controller.php:332] Preview->render()
+[16-Jun-2020 05:33:33 UTC] [328/finalProject/index.php:60] Controller->display()
+[16-Jun-2020 05:33:33 UTC] [328/finalProject/index.php:64] Base->run()
+[16-Jun-2020 06:26:18 UTC] Call to a member function getLName() on null [/home/ctangree/public_html/328/finalProject/model/database.php:54]
+[16-Jun-2020 06:26:18 UTC] [328/finalProject/controllers/controller.php:302] Database->writeInfo()
+[16-Jun-2020 06:26:18 UTC] [328/finalProject/index.php:55] Controller->summary()
+[16-Jun-2020 06:26:18 UTC] [328/finalProject/index.php:64] Base->run()
+[05-Feb-2021 06:02:42 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/ctangree/public_html/328/finalProject/vendor/bcosca/fatfree-core/base.php on line 892
+[05-Feb-2021 06:02:42 UTC] Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes)
+[05-Feb-2021 06:02:46 UTC] Call to a member function getLName() on null [/home/ctangree/public_html/328/finalProject/model/database.php:54]
+[05-Feb-2021 06:02:46 UTC] [328/finalProject/controllers/controller.php:302] Database->writeInfo()
+[05-Feb-2021 06:02:46 UTC] [328/finalProject/index.php:55] Controller->summary()
+[05-Feb-2021 06:02:46 UTC] [328/finalProject/index.php:64] Base->run()
+[05-Feb-2021 06:02:51 UTC] Call to a member function setLeather() on null [/home/ctangree/public_html/328/finalProject/controllers/controller.php:233]
+[05-Feb-2021 06:02:51 UTC] [328/finalProject/index.php:45] Controller->interior()
+[05-Feb-2021 06:02:51 UTC] [328/finalProject/index.php:64] Base->run()
+[05-Feb-2021 06:35:13 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in /home/ctangree/public_html/328/finalProject/model/database.php on line 171
+[05-Feb-2021 06:35:13 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/ctangree/public_html/328/finalProject/vendor/bcosca/fatfree-core/base.php on line 1290
+[05-Feb-2021 06:35:21 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in /home/ctangree/public_html/328/finalProject/model/database.php on line 171
+[05-Feb-2021 06:35:21 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/ctangree/public_html/328/finalProject/vendor/bcosca/fatfree-core/base.php on line 1290
+[05-Feb-2021 06:36:28 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in /home/ctangree/public_html/328/finalProject/model/database.php on line 171
+[05-Feb-2021 06:36:28 UTC] Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+[05-Feb-2021 06:36:28 UTC] [328/finalProject/model/database.php:171] 
+[05-Feb-2021 06:36:40 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in /home/ctangree/public_html/328/finalProject/model/database.php on line 171
+[05-Feb-2021 06:36:40 UTC] Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+[05-Feb-2021 06:36:40 UTC] [328/finalProject/model/database.php:171] 
+[05-Feb-2021 06:42:25 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 81000000 bytes) in /home/ctangree/public_html/328/finalProject/model/database.php on line 171
+[05-Feb-2021 06:42:25 UTC] Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 81000000 bytes)
+[05-Feb-2021 06:42:25 UTC] [328/finalProject/model/database.php:171] 
+[05-Feb-2021 06:43:37 UTC] Call to a member function getLName() on null [/home/ctangree/public_html/328/finalProject/model/database.php:54]
+[05-Feb-2021 06:43:37 UTC] [328/finalProject/controllers/controller.php:302] Database->writeInfo()
+[05-Feb-2021 06:43:37 UTC] [328/finalProject/index.php:55] Controller->summary()
+[05-Feb-2021 06:43:37 UTC] [328/finalProject/index.php:64] Base->run()
+[05-Feb-2021 06:43:46 UTC] Call to a member function getLName() on null [/home/ctangree/public_html/328/finalProject/model/database.php:54]
+[05-Feb-2021 06:43:46 UTC] [328/finalProject/controllers/controller.php:302] Database->writeInfo()
+[05-Feb-2021 06:43:46 UTC] [328/finalProject/index.php:55] Controller->summary()
+[05-Feb-2021 06:43:46 UTC] [328/finalProject/index.php:64] Base->run()
+[05-Feb-2021 06:45:11 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 104857600 bytes) in /home/ctangree/public_html/328/finalProject/model/database.php on line 171
+[05-Feb-2021 06:45:11 UTC] Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 104857600 bytes)
+[05-Feb-2021 06:45:11 UTC] [328/finalProject/model/database.php:171] 
+[05-Feb-2021 06:45:20 UTC] Call to a member function getLName() on null [/home/ctangree/public_html/328/finalProject/model/database.php:54]
+[05-Feb-2021 06:45:20 UTC] [328/finalProject/controllers/controller.php:302] Database->writeInfo()
+[05-Feb-2021 06:45:20 UTC] [328/finalProject/index.php:55] Controller->summary()
+[05-Feb-2021 06:45:20 UTC] [328/finalProject/index.php:64] Base->run()
+[05-Feb-2021 06:45:27 UTC] Call to a member function getLName() on null [/home/ctangree/public_html/328/finalProject/model/database.php:54]
+[05-Feb-2021 06:45:27 UTC] [328/finalProject/controllers/controller.php:302] Database->writeInfo()
+[05-Feb-2021 06:45:27 UTC] [328/finalProject/index.php:55] Controller->summary()
+[05-Feb-2021 06:45:27 UTC] [328/finalProject/index.php:64] Base->run()
+[05-Feb-2021 06:45:32 UTC] Call to a member function getLName() on null [/home/ctangree/public_html/328/finalProject/model/database.php:54]
+[05-Feb-2021 06:45:32 UTC] [328/finalProject/controllers/controller.php:302] Database->writeInfo()
+[05-Feb-2021 06:45:32 UTC] [328/finalProject/index.php:55] Controller->summary()
+[05-Feb-2021 06:45:32 UTC] [328/finalProject/index.php:64] Base->run()
+[05-Feb-2021 06:45:41 UTC] Call to a member function getLName() on null [/home/ctangree/public_html/328/finalProject/model/database.php:54]
+[05-Feb-2021 06:45:41 UTC] [328/finalProject/controllers/controller.php:302] Database->writeInfo()
+[05-Feb-2021 06:45:41 UTC] [328/finalProject/index.php:55] Controller->summary()
+[05-Feb-2021 06:45:41 UTC] [328/finalProject/index.php:64] Base->run()
+[05-Feb-2021 06:50:46 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 133633600 bytes) in /home/ctangree/public_html/328/finalProject/model/database.php on line 171
+[05-Feb-2021 06:50:46 UTC] Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 133633600 bytes)
+[05-Feb-2021 06:50:46 UTC] [328/finalProject/model/database.php:171] 
+[05-Feb-2021 06:51:40 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 133633600 bytes) in /home/ctangree/public_html/328/finalProject/model/database.php on line 171
+[05-Feb-2021 06:51:40 UTC] Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 133633600 bytes)
+[05-Feb-2021 06:51:40 UTC] [328/finalProject/model/database.php:171] 
+[05-Feb-2021 06:51:48 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 133633600 bytes) in /home/ctangree/public_html/328/finalProject/model/database.php on line 171
+[05-Feb-2021 06:51:48 UTC] Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 133633600 bytes)
+[05-Feb-2021 06:51:48 UTC] [328/finalProject/model/database.php:171] 
+[05-Feb-2021 06:51:56 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 133633600 bytes) in /home/ctangree/public_html/328/finalProject/model/database.php on line 171
+[05-Feb-2021 06:51:56 UTC] Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 133633600 bytes)
+[05-Feb-2021 06:51:56 UTC] [328/finalProject/model/database.php:171] 
+[05-Feb-2021 06:52:01 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 133633600 bytes) in /home/ctangree/public_html/328/finalProject/model/database.php on line 171
+[05-Feb-2021 06:52:01 UTC] Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 133633600 bytes)
+[05-Feb-2021 06:52:01 UTC] [328/finalProject/model/database.php:171] 
+[05-Feb-2021 06:54:56 UTC] Call to a member function getLName() on null [/home/ctangree/public_html/328/finalProject/model/database.php:54]
+[05-Feb-2021 06:54:56 UTC] [328/finalProject/controllers/controller.php:302] Database->writeInfo()
+[05-Feb-2021 06:54:56 UTC] [328/finalProject/index.php:55] Controller->summary()
+[05-Feb-2021 06:54:56 UTC] [328/finalProject/index.php:64] Base->run()
+[05-Feb-2021 06:54:58 UTC] Call to a member function getLName() on null [/home/ctangree/public_html/328/finalProject/model/database.php:54]
+[05-Feb-2021 06:54:58 UTC] [328/finalProject/controllers/controller.php:302] Database->writeInfo()
+[05-Feb-2021 06:54:58 UTC] [328/finalProject/index.php:55] Controller->summary()
+[05-Feb-2021 06:54:58 UTC] [328/finalProject/index.php:64] Base->run()
+[05-Feb-2021 06:55:17 UTC] Call to a member function setLeather() on null [/home/ctangree/public_html/328/finalProject/controllers/controller.php:233]
+[05-Feb-2021 06:55:17 UTC] [328/finalProject/index.php:45] Controller->interior()
+[05-Feb-2021 06:55:17 UTC] [328/finalProject/index.php:64] Base->run()
+[05-Feb-2021 16:20:44 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 12288 bytes) in /home/ctangree/public_html/328/finalProject/model/database.php on line 171
+[05-Feb-2021 16:20:44 UTC] Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 12288 bytes)
+[05-Feb-2021 16:20:44 UTC] [328/finalProject/model/database.php:171] 
+[05-Feb-2021 16:20:56 UTC] Call to a member function getLName() on null [/home/ctangree/public_html/328/finalProject/model/database.php:54]
+[05-Feb-2021 16:20:56 UTC] [328/finalProject/controllers/controller.php:302] Database->writeInfo()
+[05-Feb-2021 16:20:56 UTC] [328/finalProject/index.php:55] Controller->summary()
+[05-Feb-2021 16:20:56 UTC] [328/finalProject/index.php:64] Base->run()

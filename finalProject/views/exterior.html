@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exterior of Car</title>
+    <include href="includes/header.html"></include>
+</head>
+<body>
+<div class="card container mb-5">
+    <div class="card-body">
+
+        <h1>Design the exterior of your BMW</h1>
+        <hr>
+        <form action="#" method="post" class="row" id="exterior">
+            <div class="col-lg-8">
+
+                <div class="form-group">
+                    <label for="rimDrop"><strong>Select the size of the rims </strong><b class="err">*</b></label>
+                    <select class="form-control" id="rimDrop" name="rimDrop">
+                        <option value="-- Please choose one --">-- Please choose one --</option>
+
+                        <repeat group="{{ @rims }}" value="{{ @rim }}">
+                            <option value="{{ @rim }}"
+                            <check if="{{ @rim == @selectedRim }}">selected="selected"</check>
+                            >{{ @rim }}</option>
+                        </repeat>
+
+                    </select>
+
+                    <check if="{{ isset(@errors['rimDrop']) }}">
+                        <div class="alert alert-danger alert-dismissible fade show mt-1">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            {{ @errors['rimDrop'] }}
+                        </div>
+                    </check>
+
+                </div>
+
+                <div class="form-group">
+                    <label><strong>Add spinners to the rim? </strong><b class="err">*</b></label>
+
+                    <repeat group="{{ @spinners }}" value="{{ @spinner }}">
+                        <br>
+                        <input type="radio" id="{{ @spinner }}" name="spinners" value="{{ @spinner }}"
+                        <check if="{{ @spinner == @selectedSpinner }}">checked="checked"</check>
+                        >
+                        <label for="{{ @spinner }}">{{ @spinner }}</label>
+                    </repeat>
+                    <br>
+
+                    <check if="{{ isset(@errors['spinners']) }}">
+                        <div class="alert alert-danger alert-dismissible fade show mt-1">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            {{ @errors['spinners'] }}
+                        </div>
+                    </check>
+
+                </div>
+
+                <div class="form-group">
+                    <label for="colorCar"><strong>Select color of the vehicle </strong><b class="err">*</b></label>
+                    <select class="form-control" id="colorCar" name="colorCar">
+                        <option value="-- Please choose one --">-- Please choose one --</option>
+
+                        <repeat group="{{ @colors }}" value="{{ @color }}">
+                            <option value="{{ @color }}"
+                            <check if="{{ @color == @selectedColor }}">selected="selected"</check>
+                            >{{ @color }}</option>
+                        </repeat>
+
+                    </select>
+
+                    <check if="{{ isset(@errors['colorCar']) }}">
+                        <div class="alert alert-danger alert-dismissible fade show mt-1">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            {{ @errors['colorCar'] }}
+                        </div>
+                    </check>
+
+                </div>
+
+                <div class="form-group">
+                    <label for="exhaust"><strong>Select exhaust type </strong><b class="err">*</b></label>
+                    <select class="form-control" id="exhaust" name="exhaust">
+                        <option value="-- Please choose one --">-- Please choose one --</option>
+
+                        <repeat group="{{ @exhausts }}" value="{{ @exhaust }}">
+                            <option value="{{ @exhaust }}"
+                            <check if="{{ @exhaust == @selectedExhaust }}">selected="selected"</check>
+                            >{{ @exhaust }}</option>
+                        </repeat>
+
+                    </select>
+
+                    <check if="{{ isset(@errors['exhaust']) }}">
+                        <div class="alert alert-danger alert-dismissible fade show mt-1">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            {{ @errors['exhaust'] }}
+                        </div>
+                    </check>
+
+                </div>
+
+                <div class="form-group">
+                    <label for="engine"><strong>Select the type of engine </strong><b class="err">*</b></label>
+                    <select class="form-control" id="engine" name="engine">
+                        <option value="-- Please choose one --">-- Please choose one --</option>
+
+                        <repeat group="{{ @engines }}" value="{{ @engine }}">
+                            <option value="{{ @engine }}"
+                            <check if="{{ @engine == @selectedEngine }}">selected="selected"</check>
+                            >{{ @engine }}</option>
+                        </repeat>
+
+                    </select>
+
+                    <check if="{{ isset(@errors['engine']) }}">
+                        <div class="alert alert-danger alert-dismissible fade show mt-1">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            {{ @errors['engine'] }}
+                        </div>
+                    </check>
+
+                </div>
+
+                <div class="form-group">
+                    <label><strong>Transmission </strong><b class="err">*</b></label>
+
+                    <repeat group="{{ @transmissions }}" value="{{ @transmission }}">
+                        <br>
+                        <input type="radio" id="{{ @transmission }}" name="transmission"
+                               value="{{ @transmission }}"
+                        <check if="{{ @transmission == @selectedTransmission }}">checked="checked"</check>
+                        >
+                        <label for="{{ @transmission }}">{{ @transmission }}</label>
+                    </repeat>
+                    <br>
+
+                    <check if="{{ isset(@errors['transmission']) }}">
+                        <div class="alert alert-danger alert-dismissible fade show mt-1">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            {{ @errors['transmission'] }}
+                        </div>
+                    </check>
+
+                </div>
+
+                <label for="costumeExterior"><strong>Is there any thing else you want to add to the
+                    car?</strong></label>
+                <textarea class="form-control" id="costumeExterior" rows="5" name="costumeExterior"
+                          placeholder="(optional)">{{ @costumeExterior }}</textarea>
+
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card mt-4">
+                    <div class="card-body">
+                        <p class="card-text"><b>Note:</b> All information entered is protected by our <a
+                                href="https://en.wikipedia.org/wiki/Privacy_policy" target="_blank">privacy policy</a>.
+                            Profile information can only be viewed by others with your permission.</p>
+                        <p class="card-text"><b>Required:</b> Anything with a <b class="err">*</b> is required and needs
+                            to be filled out.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <div class="float-right p-2">
+            <button type="submit" form="exterior" class="btn btn-dark">Next ></button>
+        </div>
+
+    </div>
+
+
+</div>
+</div>
+</body>
+</html>

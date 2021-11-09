@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Hee Haw Function</title>
+</head>
+<body>
+<div class="container mt-5 mb-5">
+    <h1>Hee Haw Function</h1>
+    <p>Write a heeHaw () function that takes a number as an input and prints the numbers from 1 to that number , using
+        the same logic as the problem above. Then, using a web form, allow the user to enter a value. Use your function
+        to display the result in the web page . If the user enters an invalid parameter, print an error message. Do not
+        use any jQuery.</p>
+</div>
+<div class="container mt-5 mb-5">
+    <form id="form" method="post">
+        <div class="form-group">
+            <label for="input">Enter a number</label>
+            <input type="text" class="form-control" id="input" name="input">
+            <span id="err" class="text-danger hidden">Please enter a valid number</span>
+        </div>
+        <button type="button" id="btn" class="btn btn-primary mt-3 mb-3">Submit</button>
+    </form>
+</div>
+<div class="container mt-5 mb-5" id="display"></div>
+<script src="function.js"></script>
+</body>
+</html>

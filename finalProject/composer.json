@@ -1,0 +1,21 @@
+{
+  "name": "ctangree/328/finalProject",
+  "authors": [
+    {
+      "name": "Changming Tan",
+      "email": "ctan9@mail.greenriver.edu"
+    },
+    {
+      "name": "Vadim Balan",
+      "email": "vbalan@mail.greenriver.edu"
+    }
+  ],
+  "require":
+  {
+    "bcosca/fatfree-core": "dev-master"
+  },
+  "autoload":
+  {
+    "classmap": ["classes/", "model/", "controllers/"]
+  }
+}
