@@ -1,0 +1,12 @@
+[04-Jun-2020 03:33:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getName() in /home/ctangree/public_html/328/pet-demo/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/ctangree/public_html/328/pet-demo/index.php on line 5
+[04-Jun-2020 03:33:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getName() in /home/ctangree/public_html/328/pet-demo/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/ctangree/public_html/328/pet-demo/index.php on line 5
+[04-Jun-2020 03:40:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Dog' not found in /home/ctangree/public_html/328/pet-demo/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ctangree/public_html/328/pet-demo/index.php on line 7

@@ -1,0 +1,15 @@
+{
+  "name": "ctangree/328/dating",
+  "authors": [
+    {
+      "name": "Changming Tan",
+      "email": "ctan9@mail.greenriver.edu"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  },
+  "autoload": {
+    "classmap": ["classes/", "model/", "controllers/"]
+  }
+}
