@@ -1,0 +1,10 @@
+[15-Apr-2020 21:27:53 UTC] No routes specified
+[15-Apr-2020 21:27:53 UTC] [328/hello/index.php:13] Base->run()
+[15-Apr-2020 21:32:05 UTC] HTTP 404 (GET /index.php)
+[15-Apr-2020 21:32:05 UTC] [328/hello/index.php:18] Base->run()
+[15-Apr-2020 21:32:36 UTC] HTTP 404 (GET /index.php)
+[15-Apr-2020 21:32:36 UTC] [328/hello/index.php:18] Base->run()
+[15-Apr-2020 21:32:38 UTC] HTTP 404 (GET /index.php)
+[15-Apr-2020 21:32:38 UTC] [328/hello/index.php:18] Base->run()
+[20-May-2020 22:42:18 UTC] HTTP 404 (GET /index.php)
+[20-May-2020 22:42:18 UTC] [328/hello/index.php:22] Base->run()

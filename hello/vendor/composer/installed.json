@@ -1,0 +1,35 @@
+[
+    {
+        "name": "bcosca/fatfree-core",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/bcosca/fatfree-core.git",
+            "reference": "99a1a9274b8f75494e1f0f751d1689cd32f2dfcc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/bcosca/fatfree-core/zipball/99a1a9274b8f75494e1f0f751d1689cd32f2dfcc",
+            "reference": "99a1a9274b8f75494e1f0f751d1689cd32f2dfcc",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "time": "2020-04-14T10:12:06+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "."
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0"
+        ],
+        "description": "A powerful yet easy-to-use PHP micro-framework designed to help you build dynamic and robust Web applications - fast!",
+        "homepage": "http://fatfreeframework.com/"
+    }
+]
