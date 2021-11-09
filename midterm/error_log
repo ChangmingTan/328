@@ -1,0 +1,131 @@
+[20-May-2020 22:42:41 UTC] HTTP 404 (GET /survey.html)
+[20-May-2020 22:42:41 UTC] [328/midterm/index.php:22] Base->run()
+[20-May-2020 22:43:58 UTC] HTTP 404 (GET /survey.html)
+[20-May-2020 22:43:58 UTC] [328/midterm/index.php:27] Base->run()
+[20-May-2020 22:44:04 UTC] HTTP 404 (GET /survey.html)
+[20-May-2020 22:44:04 UTC] [328/midterm/index.php:27] Base->run()
+[20-May-2020 22:44:33 UTC] HTTP 404 (GET /survey.html)
+[20-May-2020 22:44:33 UTC] [328/midterm/index.php:27] Base->run()
+[20-May-2020 22:44:45 UTC] HTTP 404 (GET /survey.html)
+[20-May-2020 22:44:45 UTC] [328/midterm/index.php:27] Base->run()
+[20-May-2020 22:44:53 UTC] HTTP 404 (GET /survey.html)
+[20-May-2020 22:44:53 UTC] [328/midterm/index.php:27] Base->run()
+[20-May-2020 23:14:45 UTC] HTTP 405 (POST /survey)
+[20-May-2020 23:14:45 UTC] [328/midterm/index.php:43] Base->run()
+[20-May-2020 23:14:52 UTC] HTTP 405 (POST /survey)
+[20-May-2020 23:14:52 UTC] [328/midterm/index.php:43] Base->run()
+[20-May-2020 23:15:17 UTC] HTTP 405 (POST /survey)
+[20-May-2020 23:15:17 UTC] [328/midterm/index.php:43] Base->run()
+[20-May-2020 23:16:08 UTC] HTTP 405 (POST /survey)
+[20-May-2020 23:16:08 UTC] [328/midterm/index.php:43] Base->run()
+[20-May-2020 23:16:09 UTC] HTTP 405 (POST /survey)
+[20-May-2020 23:16:09 UTC] [328/midterm/index.php:43] Base->run()
+[20-May-2020 23:16:14 UTC] HTTP 405 (POST /survey)
+[20-May-2020 23:16:14 UTC] [328/midterm/index.php:43] Base->run()
+[20-May-2020 23:44:56 UTC] implode(): Invalid arguments passed
+[20-May-2020 23:44:56 UTC] [328/midterm/tmp/1r677itza4vco.jrv7wicishxo.php:13] implode()
+[20-May-2020 23:44:56 UTC] [328/midterm/index.php:45] Preview->render()
+[20-May-2020 23:44:56 UTC] [328/midterm/index.php:52] Base->run()
+[20-May-2020 23:45:47 UTC] implode(): Invalid arguments passed
+[20-May-2020 23:45:47 UTC] [328/midterm/tmp/1r677itza4vco.jrv7wicishxo.php:13] implode()
+[20-May-2020 23:45:47 UTC] [328/midterm/index.php:45] Preview->render()
+[20-May-2020 23:45:47 UTC] [328/midterm/index.php:52] Base->run()
+[20-May-2020 23:46:53 UTC] implode(): Invalid arguments passed
+[20-May-2020 23:46:53 UTC] [328/midterm/tmp/1r677itza4vco.jrv7wicishxo.php:13] implode()
+[20-May-2020 23:46:53 UTC] [328/midterm/index.php:45] Preview->render()
+[20-May-2020 23:46:53 UTC] [328/midterm/index.php:52] Base->run()
+[20-May-2020 23:49:02 UTC] implode(): Invalid arguments passed
+[20-May-2020 23:49:02 UTC] [328/midterm/tmp/1r677itza4vco.jrv7wicishxo.php:13] implode()
+[20-May-2020 23:49:02 UTC] [328/midterm/index.php:45] Preview->render()
+[20-May-2020 23:49:02 UTC] [328/midterm/index.php:52] Base->run()
+[20-May-2020 23:49:42 UTC] implode(): Invalid arguments passed
+[20-May-2020 23:49:42 UTC] [328/midterm/tmp/1r677itza4vco.jrv7wicishxo.php:13] implode()
+[20-May-2020 23:49:42 UTC] [328/midterm/index.php:45] Preview->render()
+[20-May-2020 23:49:42 UTC] [328/midterm/index.php:52] Base->run()
+[20-May-2020 23:49:50 UTC] implode(): Invalid arguments passed
+[20-May-2020 23:49:50 UTC] [328/midterm/tmp/1r677itza4vco.jrv7wicishxo.php:13] implode()
+[20-May-2020 23:49:50 UTC] [328/midterm/index.php:45] Preview->render()
+[20-May-2020 23:49:50 UTC] [328/midterm/index.php:52] Base->run()
+[20-May-2020 23:58:29 UTC] implode(): Invalid arguments passed
+[20-May-2020 23:58:29 UTC] [328/midterm/tmp/1r677itza4vco.jrv7wicishxo.php:13] implode()
+[20-May-2020 23:58:29 UTC] [328/midterm/index.php:45] Preview->render()
+[20-May-2020 23:58:29 UTC] [328/midterm/index.php:52] Base->run()
+[20-May-2020 23:58:45 UTC] implode(): Invalid arguments passed
+[20-May-2020 23:58:45 UTC] [328/midterm/tmp/1r677itza4vco.jrv7wicishxo.php:13] implode()
+[20-May-2020 23:58:45 UTC] [328/midterm/index.php:45] Preview->render()
+[20-May-2020 23:58:45 UTC] [328/midterm/index.php:52] Base->run()
+[20-May-2020 23:58:49 UTC] implode(): Invalid arguments passed
+[20-May-2020 23:58:49 UTC] [328/midterm/tmp/1r677itza4vco.jrv7wicishxo.php:13] implode()
+[20-May-2020 23:58:49 UTC] [328/midterm/index.php:45] Preview->render()
+[20-May-2020 23:58:49 UTC] [328/midterm/index.php:52] Base->run()
+[20-May-2020 23:58:55 UTC] implode(): Invalid arguments passed
+[20-May-2020 23:58:55 UTC] [328/midterm/tmp/1r677itza4vco.jrv7wicishxo.php:13] implode()
+[20-May-2020 23:58:55 UTC] [328/midterm/index.php:45] Preview->render()
+[20-May-2020 23:58:55 UTC] [328/midterm/index.php:52] Base->run()
+[20-May-2020 23:59:47 UTC] implode(): Invalid arguments passed
+[20-May-2020 23:59:47 UTC] [328/midterm/tmp/1r677itza4vco.jrv7wicishxo.php:14] implode()
+[20-May-2020 23:59:47 UTC] [328/midterm/index.php:45] Preview->render()
+[20-May-2020 23:59:47 UTC] [328/midterm/index.php:52] Base->run()
+[21-May-2020 00:00:10 UTC] implode(): Invalid arguments passed
+[21-May-2020 00:00:10 UTC] [328/midterm/tmp/1r677itza4vco.jrv7wicishxo.php:14] implode()
+[21-May-2020 00:00:10 UTC] [328/midterm/index.php:45] Preview->render()
+[21-May-2020 00:00:10 UTC] [328/midterm/index.php:52] Base->run()
+[21-May-2020 00:01:48 UTC] implode(): Invalid arguments passed
+[21-May-2020 00:01:48 UTC] [328/midterm/tmp/1r677itza4vco.jrv7wicishxo.php:14] implode()
+[21-May-2020 00:01:48 UTC] [328/midterm/index.php:48] Preview->render()
+[21-May-2020 00:01:48 UTC] [328/midterm/index.php:55] Base->run()
+[21-May-2020 00:40:10 UTC] Class 'Validate' not found [/home/ctangree/public_html/328/midterm/index.php:15]
+[21-May-2020 00:40:25 UTC] Class 'Validate' not found [/home/ctangree/public_html/328/midterm/index.php:15]
+[21-May-2020 00:41:39 UTC] Class 'Validate' not found [/home/ctangree/public_html/328/midterm/index.php:15]
+[21-May-2020 00:41:44 UTC] Class 'Validate' not found [/home/ctangree/public_html/328/midterm/index.php:15]
+[21-May-2020 00:41:47 UTC] Class 'Validate' not found [/home/ctangree/public_html/328/midterm/index.php:15]
+[21-May-2020 00:42:46 UTC] Class 'Validate' not found [/home/ctangree/public_html/328/midterm/index.php:15]
+[21-May-2020 00:43:51 UTC] Class 'Validate' not found [/home/ctangree/public_html/328/midterm/index.php:15]
+[21-May-2020 03:10:04 UTC] Call to undefined function validFood() [/home/ctangree/public_html/328/midterm/index.php:33]
+[21-May-2020 03:10:04 UTC] [328/midterm/index.php:73] Base->run()
+[21-May-2020 03:10:28 UTC] Call to undefined function validOptions() [/home/ctangree/public_html/328/midterm/index.php:38]
+[21-May-2020 03:10:28 UTC] [328/midterm/index.php:73] Base->run()
+[21-May-2020 04:05:48 UTC] sizeof(): Parameter must be an array or an object that implements Countable
+[21-May-2020 04:05:48 UTC] [328/midterm/model/validate.php:22] sizeof()
+[21-May-2020 04:05:48 UTC] [328/midterm/index.php:37] validOptions()
+[21-May-2020 04:05:48 UTC] [328/midterm/index.php:72] Base->run()
+[21-May-2020 04:06:04 UTC] sizeof(): Parameter must be an array or an object that implements Countable
+[21-May-2020 04:06:04 UTC] [328/midterm/model/validate.php:22] sizeof()
+[21-May-2020 04:06:04 UTC] [328/midterm/index.php:37] validOptions()
+[21-May-2020 04:06:04 UTC] [328/midterm/index.php:72] Base->run()
+[21-May-2020 04:06:33 UTC] sizeof(): Parameter must be an array or an object that implements Countable
+[21-May-2020 04:06:33 UTC] [328/midterm/model/validate.php:22] sizeof()
+[21-May-2020 04:06:33 UTC] [328/midterm/index.php:37] validOptions()
+[21-May-2020 04:06:33 UTC] [328/midterm/index.php:72] Base->run()
+[21-May-2020 04:08:07 UTC] in_array() expects parameter 2 to be array, string given
+[21-May-2020 04:08:07 UTC] [328/midterm/model/validate.php:23] in_array()
+[21-May-2020 04:08:07 UTC] [328/midterm/index.php:37] validOptions()
+[21-May-2020 04:08:07 UTC] [328/midterm/index.php:72] Base->run()
+[21-May-2020 04:08:15 UTC] in_array() expects parameter 2 to be array, string given
+[21-May-2020 04:08:15 UTC] [328/midterm/model/validate.php:23] in_array()
+[21-May-2020 04:08:15 UTC] [328/midterm/index.php:37] validOptions()
+[21-May-2020 04:08:15 UTC] [328/midterm/index.php:72] Base->run()
+[21-May-2020 04:31:59 UTC] Call to undefined function validOptions() [/home/ctangree/public_html/328/midterm/index.php:37]
+[21-May-2020 04:31:59 UTC] [328/midterm/index.php:72] Base->run()
+[21-May-2020 05:41:05 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ctangree/public_html/328/midterm/index.php on line 37
+[21-May-2020 05:41:10 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ctangree/public_html/328/midterm/index.php on line 37
+[21-May-2020 05:43:04 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ctangree/public_html/328/midterm/index.php on line 40
+[22-May-2020 08:04:15 UTC] HTTP 404 (GET /index.php)
+[22-May-2020 08:04:15 UTC] [328/midterm/index.php:71] Base->run()
+[22-May-2020 08:18:20 UTC] implode(): Invalid arguments passed
+[22-May-2020 08:18:20 UTC] [328/midterm/tmp/1r677itza4vco.jrv7wicishxo.php:14] implode()
+[22-May-2020 08:18:20 UTC] [328/midterm/index.php:65] Preview->render()
+[22-May-2020 08:18:20 UTC] [328/midterm/index.php:71] Base->run()
+[22-May-2020 08:18:42 UTC] implode(): Invalid arguments passed
+[22-May-2020 08:18:42 UTC] [328/midterm/tmp/1r677itza4vco.jrv7wicishxo.php:14] implode()
+[22-May-2020 08:18:42 UTC] [328/midterm/index.php:65] Preview->render()
+[22-May-2020 08:18:42 UTC] [328/midterm/index.php:71] Base->run()
+[22-May-2020 08:30:27 UTC] implode(): Invalid arguments passed
+[22-May-2020 08:30:27 UTC] [328/midterm/tmp/1r677itza4vco.jrv7wicishxo.php:14] implode()
+[22-May-2020 08:30:27 UTC] [328/midterm/index.php:65] Preview->render()
+[22-May-2020 08:30:27 UTC] [328/midterm/index.php:71] Base->run()
+[27-May-2020 10:34:48 UTC] HTTP 404 (GET /index.php)
+[27-May-2020 10:34:48 UTC] [328/midterm/index.php:71] Base->run()
+[27-May-2020 10:40:05 UTC] Invalid argument supplied for foreach()
+[27-May-2020 10:40:05 UTC] [328/midterm/index.php:39] Base->{closure}()
+[27-May-2020 10:40:05 UTC] [328/midterm/index.php:76] Base->run()
